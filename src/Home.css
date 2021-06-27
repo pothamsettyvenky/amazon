@@ -1,0 +1,75 @@
+.main_home{
+    display: flex;
+    justify-content: center;
+    max-width: 1500px;
+    margin-left:20px;
+    margin-right: 20px;
+}
+
+.amazon_header{
+    width: 100%;
+   
+    margin-bottom: -150px;
+    mask-image: linear-gradient(to bottom rgba(0,0,0,1),rgba(0,0,0,0)
+    );
+}
+.home_Rowd{
+    display: flex;
+    z-index: 1;
+   position: relative;
+   top:-200px;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+   
+}
+.star{
+    color:gold;
+}
+.back_to{
+    text-decoration: none;
+    color:white;
+    background-color:#131921 ;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    font-size: 12px;
+    opacity: 0.8;
+}
+.amazon_footer_options a {
+    text-decoration: none;
+    color: white;
+    padding-top: 10px;
+    font-size: 15px;
+
+}
+.amazon_footer_options strong{
+    color:white;
+}
+.amazon_footer_options{
+    display: flex;
+    flex-direction: column;
+}
+.amazon_footer{
+    background-color:#131921 ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: max-content;
+}
+.thanks{
+    text-decoration: none;
+    color:white;
+    background-color:#131921 ;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 60px;
+   
+    
+}
+.slider{
+    height: 500px;
+    z-index: 0;
+}

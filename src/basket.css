@@ -1,0 +1,27 @@
+.checkout{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+
+}
+.checkout_info{
+    
+    padding-left: 20px;
+}
+.checkout_button{
+    background: #f0c14b;
+    border:2px solid;
+    margin-top: 20px;
+    border-color: #a88734 #9c7e31 #846a29;
+    color:black;
+}
+.img{
+    object-fit: contain;
+    width: 180px;
+    height: 180px;
+}
+.checkOut_title{
+    font-size: 17px;
+    font-weight: 800;
+}
